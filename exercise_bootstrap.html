@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+    <!-- Bootstrap -->
+     <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-
+BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-
+rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+crossorigin="anonymous"></script>
+	
+	<!--Nav Bar-->
+	<nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+			<a class="navbar-brand" href="#">TCC Sites</a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+			  <li><a href="http://tcc.edu">TCC Home</a></li>
+              <li><a href=" http://learn.vccs.edu">Canvas</a></li>
+              <li><a href="http://tcc.edu/class-search">Class Search</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Links <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="http://msn.com">MSN</a></li>
+                  <li><a href="http://yahoo.com">Yahoo</a></li>
+                  <li><a href="http://google.com">Google</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+	
+	<!-- Buttons -->
+	<p>
+        <button type="button" class="btn btn-default">Default</button>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-link">Link</button>
+	</p>
+	
+	<!--table-->
+	<table class="table table-striped">
+		<thead>
+		  <tr>
+			<th>Class Number</th>
+			<th>Semester</th>
+			<th>Class Name</th>
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+			<td>AST 209</td>
+			<td>SPR 2019</td>
+			<td>Business Communications</td>
+		  </tr>
+		  <tr>
+			<td>ITP 100</td>
+			<td>SPR 2019</td>
+			<td>Software Design</td>
+		  </tr>
+		  <tr>
+			<td>ITD 210</td>
+			<td>SPR 2022</td>
+			<td>Web Page Design II</td>
+		  </tr>
+		</tbody>
+    </table>
+	
+	<!-- badge -->
+	<a href="#">Unread <span class="badge">20</span></a>
+	
+	<!--Dropdown Menu-->
+	<div class="dropdown theme-dropdown clearfix">
+           <button id="dropdownMenu1" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+          <li><a href="https://www.google.com">Google</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="http://learn.vccs.edu">Learn VCCS</a></li>
+		  <li><a href="https://www-oreilly-com.eztcc.vccs.edu/library/view/adobe-photoshop-classroom/9780136177401/">Photoshop Book</a></li>
+		  <li role="separator" class="divider"></li>
+		  <li class="active"><a href="https://www.salliemae.com/login/">Student Loan</a></li>
+        </ul>
+      </div>
+
+  </body>
+</html>
